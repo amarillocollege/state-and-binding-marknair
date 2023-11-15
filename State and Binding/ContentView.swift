@@ -22,7 +22,7 @@ struct ContentView: View {
                     .overlay {
                         Text("\(counter)")
                             .font(.system(size: 100, weight: .bold, design: .rounded))
-                            .foregroundStyle(.white)
+                            .foregroundStyle(.pink)
                     }
             }
             
