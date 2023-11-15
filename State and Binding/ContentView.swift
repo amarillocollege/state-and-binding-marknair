@@ -18,7 +18,7 @@ struct ContentView: View {
             } label: {
                 Circle()
                     .frame(width: 200, height: 200)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.blue)
                     .overlay {
                         Text("\(counter)")
                             .font(.system(size: 100, weight: .bold, design: .rounded))
